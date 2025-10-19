@@ -1,8 +1,10 @@
-<h1 align="center">Node.js Telegram Bot API</h1>
+<h1 align="center">Node.js Telegram Bot API - Custom Fork</h1>
 
 <div align="center">
 
 Node.js module to interact with the official [Telegram Bot API](https://core.telegram.org/bots/api).
+
+> **Note:** This is a custom fork of [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) with personal adaptations and enhancements.
 
 
 [![Bot API](https://img.shields.io/badge/Bot%20API-v.9.0-00aced.svg?style=flat-square&logo=telegram)](https://core.telegram.org/bots/api)
@@ -18,7 +20,7 @@ Node.js module to interact with the official [Telegram Bot API](https://core.tel
 ## 📦 Install
 
 ```sh
-npm i node-telegram-bot-api
+npm i myown-node-telegram-bot-api
 ```
 
 <br/>
@@ -31,7 +33,7 @@ npm i node-telegram-bot-api
 ## 🚀 Usage
 
 ```js
-const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('myown-node-telegram-bot-api');
 
 // replace the value below with the Telegram token you receive from @BotFather
 const token = 'YOUR_TELEGRAM_BOT_TOKEN';
